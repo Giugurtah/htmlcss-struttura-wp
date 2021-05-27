@@ -9,9 +9,20 @@
 .margin{
     margin: 30px 0;
 }
+
+.floating {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* body */
 .container {
-    max-width: 1225px;
-    height: 1000px;
+    max-width: 1230px;
+    height: 2000px;
     margin: 0 auto;
     padding: 25px;
     background-color: rgb(72, 255, 6);
@@ -26,3 +37,27 @@ header {
     background-color: rgb(225, 213, 127);
     height: 500px;
 }
+
+.blue_section {
+    background-color: rgb(24, 137, 251);
+}
+
+.header_section{
+    background-color: rgb(172, 207, 230);
+    height: 90px;
+}
+
+.sidebar {
+    background-color: rgb(172, 207, 230);
+    height: 540px;
+    width: 25%;
+}
+
+.centralbar{
+    background-color: rgb(172, 207, 230);
+    width: calc(50% - 50px);
+    height: 540px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+

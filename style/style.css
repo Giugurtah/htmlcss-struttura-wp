@@ -22,10 +22,8 @@
 /* body */
 .container {
     max-width: 1230px;
-    height: 2000px;
     margin: 0 auto;
     padding: 25px;
-    background-color: rgb(72, 255, 6);
 }
 
 header {
@@ -61,3 +59,8 @@ header {
     margin-right: 25px;
 }
 
+footer{
+    background-color: rgb(135, 37, 251);
+    margin: 15px 0;
+    height: 60px;
+}
